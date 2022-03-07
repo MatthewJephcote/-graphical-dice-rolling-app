@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import { DynamicDieFace } from './components/dynamic-die-face';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="flex flex-col md:flex-row flex-wrap gap-10 lg:px-24 lg:py-10 min-h-screen bg-gray-400">
+      <DynamicDieFace />
+      <DynamicDieFace />
+      <DynamicDieFace />
+      <DynamicDieFace />
+      <DynamicDieFace />
+      <DynamicDieFace />
+      </div>
   );
 }
 
