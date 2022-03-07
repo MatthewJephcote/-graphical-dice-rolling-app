@@ -1,3 +1,40 @@
+# README for Graphical Dice Rolling App
+
+INSTRUCTIONS: Click one die/some or all of the dice to randomly generate a number.
+
+I built the app on React, via the 'create-react-app'.
+
+I also used Tailwind to set all the styling (configuring it to work with the 'create-react-app').
+
+I also made the app's design responsive, suitable for all device sizes.
+
+I was especially proud of my achievement of converting randomly-generated numbers into a two-dimensional graphical output, by using 'useState', 'props' and 'ternary operators' in conjunction with 'flexbox', 'border radius' and other CSS styling, all applied using Tailwind utility classes, which I was particularly pleased to discover could be used as 'props'.
+
+I would like to take the project further by enabling the user to roll all the dice simultaneously by clicking/touching any part of the screen area surrounding the individual dice (each one of which I want to remain independently-rollable) - at present, such multiple dice rolling funtionality is limited to the user refreshing the screen.
+
+I enjoyed creating reusable components for this project, which is a feature of React that I highly value, for its time-efficiency, 'mathematical elegance' and scope for further development of my project. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
